@@ -1,7 +1,1 @@
-# Youtube-Adview-prediction
-This project focuses on building a machine learning system to predict the monetization potential of YouTube videos. By analyzing metadata and historical engagement, the model estimates the number of adviews a video will receive—the key metric advertisers use to determine creator payouts
-Technical Specifications :
-Primary Objective: To estimate the adview count based on engagement metrics like comments and likes.
-Target Variable: adview (Number of ad impressions per video).
-Input Features: Total views, likes, dislikes, comments, published date, duration, and category.
-Tools Used: Python, Scikit-learn, Keras, Pandas, and Matplotlib
+This YouTube Adview Prediction project utilizes machine learning to forecast the monetization potential of videos by analyzing engagement metrics like views, likes, and comments. After performing extensive data cleaning to remove invalid entries and transforming ISO 8601 durations into numerical formats, I implemented multiple regression models, including Random Forest and Support Vector Regressors. To capture complex, non-linear relationships in user behavior, I developed an Artificial Neural Network (ANN) using Keras, which ultimately improved predictive accuracy. The models were evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to ensure the system effectively generalizes to new data. This end-to-end pipeline demonstrates a strong ability to modernize raw datasets and deploy automated deep-learning solutions for business-critical decision-making.
