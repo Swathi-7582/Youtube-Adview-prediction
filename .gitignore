@@ -1,0 +1,24 @@
+# Datasets
+train.csv
+test.csv
+*.csv
+
+# Model files (Optional: ignore if they are very large)
+*.keras
+*.pkl
+*.h5
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
